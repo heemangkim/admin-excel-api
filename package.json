@@ -1,0 +1,28 @@
+{
+  "name": "admin-excel-api-v1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "local": "NODE_ENV=dev node src/app.js",
+    "serverless-dev": "NODE_ENV=dev node index.js",
+    "serverless-prod": "NODE_ENV=prod node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.87.0",
+    "aws-lambda-router": "^0.11.0",
+    "aws-sdk": "^2.1130.0",
+    "cloudmersive-convert-api-client": "^2.7.4",
+    "crypto-js": "^4.1.1",
+    "excel4node": "^1.7.2",
+    "file-type": "^17.1.1",
+    "iconv-lite": "^0.6.3",
+    "lambda-api": "^0.11.2",
+    "properties-reader": "^2.2.0",
+    "utf8": "^3.0.0",
+    "xlsx": "^0.18.5",
+    "xlsx-populate": "^1.21.0",
+    "xlsx-stream-reader": "^1.1.1"
+  }
+}
